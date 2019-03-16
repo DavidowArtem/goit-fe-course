@@ -23,7 +23,6 @@ display: flex;
 flex-direction: column;
 width: 50%;
 float: left;
-margin: 10px;
 }
 .utem{
    width: 100%; 
@@ -33,5 +32,8 @@ margin: 10px;
     display: flex;
     flex-direction: column;
     float: left;
-    margin: 10px;
 }
+  
+  
+  
+  

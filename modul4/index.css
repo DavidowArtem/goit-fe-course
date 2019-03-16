@@ -13,12 +13,8 @@
 
 .text::first-letter {
   font-family: 'Shrikhand', cursive;
-  color: #FF4081;
+  color:green;
   font-size: 30px;
-}
-
-.text::first-line {
-  color: #03A9F4;
 }
 
 .site-navigation {
@@ -45,7 +41,7 @@
 }
 
 .site-navigation a:focus {
-  color: #ff4081;
+  color: #FF4081;
 }
 
 .clearfix {
