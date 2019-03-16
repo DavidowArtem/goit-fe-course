@@ -1,6 +1,37 @@
 * {
-    margin:40px;
+    margin:auto;
 }
 #text {
 margin:10px;
+}
+.p {
+    opacity: 0.5;
+}
+.button {
+    opacity: 0.7;
+    border: 1px;
+    padding: 10px;
+}
+.photo {
+    text-align: center;
+}
+.item{
+width: 100%;
+}
+.item {
+display: flex;
+flex-direction: column;
+width: 50%;
+float: left;
+margin: 10px;
+}
+.utem{
+   width: 100%; 
+}
+.utem {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 10px;
 }
