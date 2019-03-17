@@ -1,14 +1,13 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 5px;
+  margin: auto;
 }
 
 .text {
   font-family: Roboto, sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  color: #212121;
+  color: #c52525;
 }
 
 .text::first-letter {
@@ -52,5 +51,57 @@
 .h1 {
   max-width: 300px;
   border-bottom: 3px solid green;
-text-align: center;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+ }
+.masthead {
+  float: right;
+  margin-right: 5px;
+float: right;
+position: relative;
+}
+.item{
+  width: 100%;
+  }
+  .item {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  float: left;
+  }
+  .utem{
+     width: 100%; 
+  }
+  .utem {
+      width: 27%;
+      display: flex;
+      flex-direction: column;
+      float: left;
+  }
+  .button {
+    opacity: 0.7;
+    border: 1px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    top: 100px;
+}
+.span {
+  max-width: 1000px;
+}
+.span {
+  width: 650px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.img {
+  width: 100%;
+}
+.img {
+  width: 30%;
 }
