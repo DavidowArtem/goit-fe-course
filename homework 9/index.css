@@ -4,45 +4,36 @@
     font-weight: 400;
     src: local('Montserrat Regular'), local('Montserrat-Regular'),
         url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
         url('../fonts/montserrat-v12-latin-regular.woff') format('woff');
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* montserrat-700 - latin */
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     src: local('Montserrat Bold'), local('Montserrat-Bold'),
         url('../fonts/montserrat-v12-latin-700.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
         url('../fonts/montserrat-v12-latin-700.woff') format('woff');
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* roboto-300 - latin */
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     src: local('Roboto Light'), local('Roboto-Light'),
         url('../fonts/roboto-v18-latin-300.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
         url('../fonts/roboto-v18-latin-300.woff') format('woff');
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* roboto-regular - latin */
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     src: local('Roboto'), local('Roboto-Regular'),
         url('../fonts/roboto-v18-latin-regular.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
         url('../fonts/roboto-v18-latin-regular.woff') format('woff');
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 * {
@@ -99,7 +90,7 @@ header {
 
 #promo {
     height: 700px;
-    background: url(.//Shape\ 170@1X.png) 52% no-repeat;
+    background: url(./Vector\ Smart\ Object@1.jpeg) 52% no-repeat;
     background-size: auto 100%;
     margin-bottom: 70px;
 }
@@ -199,7 +190,7 @@ header {
 
 .photo-4::after {
     content: "";
-    background: url(.//Shape\ 170@1X.png) 40% 53% no-repeat, #4e73db;
+    background: url(.//Shape\ 170@1X\ \(1\).png) 40% 53% no-repeat, #4e73db;
 }
 
 #name {
